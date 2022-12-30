@@ -7,5 +7,4 @@ sber = per_cent['СБЕР']
 depozit = [int(tkb * money / 100), int(ckb * money / 100), int(vtb * money / 100), int(sber * money / 100)]
 print(depozit)
 
-max_number = max(depozit)
-print("Максимальная сумма,которую вы можете заработать - ", max_number)
+print("Максимальная сумма,которую вы можете заработать - ", max(depozit))
